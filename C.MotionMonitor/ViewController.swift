@@ -14,8 +14,11 @@ class ViewController: UIViewController , WKNavigationDelegate {
   
   var montionManager : CMMotionManager!
   var queue : NSOperationQueue!
+  
   @IBOutlet var debugLabel: UILabel!
-  @IBOutlet var uiwebview: UIWebView!
+  @IBOutlet var addressTextField: UITextField!
+  @IBOutlet var addressGoButton: UIButton!
+  
   var updateTimer : NSTimer!
   var webView : WKWebView!
   var userContentController : WKUserContentController!
@@ -29,16 +32,16 @@ class ViewController: UIViewController , WKNavigationDelegate {
     configuration = WKWebViewConfiguration()
     configuration.userContentController = userContentController
     
-    webView = WKWebView(frame: view.frame, configuration: configuration)
+    var webViewFrame = view.frame
+    webViewFrame.origin.y = 60.0
+    webViewFrame.size.height -= 60.0
+    webView = WKWebView(frame: webViewFrame, configuration: configuration)
     webView.navigationDelegate = self
     view.addSubview(webView)
-    view.bringSubviewToFront(debugLabel)
-    var url : NSURL! = NSURL(string: "http://192.168.1.102")
-    var req : NSURLRequest = NSURLRequest(URL: url)
+    view.sendSubviewToBack(webView)
+    let url : NSURL! = NSURL(string: "http://localhost")
+    let req : NSURLRequest = NSURLRequest(URL: url)
     webView.loadRequest(req)
-    
-    //uiwebview.loadRequest(req)
-    uiwebview.hidden = true
     
     montionManager = CMMotionManager()
     queue = NSOperationQueue()
@@ -151,6 +154,12 @@ class ViewController: UIViewController , WKNavigationDelegate {
 
   }
   
+  @IBAction func changeAddress(sender: AnyObject) {
+    let url : NSURL! = NSURL(string: "http://\(addressTextField.text)")
+    let req : NSURLRequest = NSURLRequest(URL: url)
+    webView.loadRequest(req)
+    addressTextField.resignFirstResponder()
+  }
   
   
 }

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,22 +17,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xmv-7c-Da5">
-                                <rect key="frame" x="0.0" y="202" width="295" height="361"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdF-IM-0cU" userLabel="header background view">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IE2-Gj-PbL" userLabel="debug">
-                                <rect key="frame" x="0.0" y="222" width="324" height="265"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="UDN-Yp-uGQ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IE2-Gj-PbL" userLabel="debug">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="0.63" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="kc0-gZ-rj4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DBb-VJ-h9t" userLabel="address text field">
+                                <rect key="frame" x="6" y="24" width="532" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kpV-q9-F2i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rjg-ED-2at" userLabel="address go button">
+                                <rect key="frame" x="544" y="24" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="UcV-mU-R8h"/>
+                                </constraints>
+                                <state key="normal" title="Run">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeAddress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fm6-uc-KN3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="qdF-IM-0cU" secondAttribute="trailing" constant="-16" id="D8k-At-pGg"/>
+                            <constraint firstItem="DBb-VJ-h9t" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="24" id="J4J-nC-56i"/>
+                            <constraint firstItem="qdF-IM-0cU" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="LKf-nA-kpW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DBb-VJ-h9t" secondAttribute="trailing" constant="46" id="QuL-c8-MQk"/>
+                            <constraint firstItem="qdF-IM-0cU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="RZE-tW-pd4"/>
+                            <constraint firstItem="IE2-Gj-PbL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Yxw-vR-QJ8"/>
+                            <constraint firstItem="DBb-VJ-h9t" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-10" id="g3D-HF-Zen"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IE2-Gj-PbL" secondAttribute="bottom" id="k2t-OT-Q5v"/>
+                            <constraint firstItem="DBb-VJ-h9t" firstAttribute="top" secondItem="Rjg-ED-2at" secondAttribute="bottom" constant="-30" id="mbA-UY-bFU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IE2-Gj-PbL" secondAttribute="trailing" constant="-16" id="phX-dE-um6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rjg-ED-2at" secondAttribute="trailing" constant="-6" id="vH7-wc-X0x"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="addressGoButton" destination="Rjg-ED-2at" id="ofn-WU-yF8"/>
+                        <outlet property="addressTextField" destination="DBb-VJ-h9t" id="Kut-PO-33h"/>
                         <outlet property="debugLabel" destination="IE2-Gj-PbL" id="Kae-Gy-Hc8"/>
-                        <outlet property="uiwebview" destination="xmv-7c-Da5" id="gQX-gp-kdp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
