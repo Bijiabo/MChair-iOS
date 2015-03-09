@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A195B59F1AAB3EEA004133D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A195B59E1AAB3EEA004133D1 /* AppDelegate.swift */; };
+		A195B5A11AAB3EEA004133D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A195B5A01AAB3EEA004133D1 /* ViewController.swift */; };
+		A195B5A41AAB3EEA004133D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A195B5A21AAB3EEA004133D1 /* Main.storyboard */; };
+		A195B5A61AAB3EEA004133D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A195B5A51AAB3EEA004133D1 /* Images.xcassets */; };
+		A195B5A91AAB3EEA004133D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A195B5A71AAB3EEA004133D1 /* LaunchScreen.xib */; };
+		A195B5B51AAB3EEA004133D1 /* C_MotionMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A195B5B41AAB3EEA004133D1 /* C_MotionMonitorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A195B5AF1AAB3EEA004133D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A195B5911AAB3EEA004133D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A195B5981AAB3EEA004133D1;
+			remoteInfo = C.MotionMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A195B5991AAB3EEA004133D1 /* C.MotionMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C.MotionMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A195B59D1AAB3EEA004133D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A195B59E1AAB3EEA004133D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A195B5A01AAB3EEA004133D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A195B5A31AAB3EEA004133D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A195B5A51AAB3EEA004133D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A195B5A81AAB3EEA004133D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A195B5AE1AAB3EEA004133D1 /* C.MotionMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = C.MotionMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A195B5B31AAB3EEA004133D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A195B5B41AAB3EEA004133D1 /* C_MotionMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C_MotionMonitorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A195B5961AAB3EEA004133D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A195B5AB1AAB3EEA004133D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A195B5901AAB3EEA004133D1 = {
+			isa = PBXGroup;
+			children = (
+				A195B59B1AAB3EEA004133D1 /* C.MotionMonitor */,
+				A195B5B11AAB3EEA004133D1 /* C.MotionMonitorTests */,
+				A195B59A1AAB3EEA004133D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A195B59A1AAB3EEA004133D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A195B5991AAB3EEA004133D1 /* C.MotionMonitor.app */,
+				A195B5AE1AAB3EEA004133D1 /* C.MotionMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A195B59B1AAB3EEA004133D1 /* C.MotionMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				A195B59E1AAB3EEA004133D1 /* AppDelegate.swift */,
+				A195B5A01AAB3EEA004133D1 /* ViewController.swift */,
+				A195B5A21AAB3EEA004133D1 /* Main.storyboard */,
+				A195B5A51AAB3EEA004133D1 /* Images.xcassets */,
+				A195B5A71AAB3EEA004133D1 /* LaunchScreen.xib */,
+				A195B59C1AAB3EEA004133D1 /* Supporting Files */,
+			);
+			path = C.MotionMonitor;
+			sourceTree = "<group>";
+		};
+		A195B59C1AAB3EEA004133D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A195B59D1AAB3EEA004133D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A195B5B11AAB3EEA004133D1 /* C.MotionMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A195B5B41AAB3EEA004133D1 /* C_MotionMonitorTests.swift */,
+				A195B5B21AAB3EEA004133D1 /* Supporting Files */,
+			);
+			path = C.MotionMonitorTests;
+			sourceTree = "<group>";
+		};
+		A195B5B21AAB3EEA004133D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A195B5B31AAB3EEA004133D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A195B5981AAB3EEA004133D1 /* C.MotionMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A195B5B81AAB3EEA004133D1 /* Build configuration list for PBXNativeTarget "C.MotionMonitor" */;
+			buildPhases = (
+				A195B5951AAB3EEA004133D1 /* Sources */,
+				A195B5961AAB3EEA004133D1 /* Frameworks */,
+				A195B5971AAB3EEA004133D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C.MotionMonitor;
+			productName = C.MotionMonitor;
+			productReference = A195B5991AAB3EEA004133D1 /* C.MotionMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A195B5AD1AAB3EEA004133D1 /* C.MotionMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A195B5BB1AAB3EEA004133D1 /* Build configuration list for PBXNativeTarget "C.MotionMonitorTests" */;
+			buildPhases = (
+				A195B5AA1AAB3EEA004133D1 /* Sources */,
+				A195B5AB1AAB3EEA004133D1 /* Frameworks */,
+				A195B5AC1AAB3EEA004133D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A195B5B01AAB3EEA004133D1 /* PBXTargetDependency */,
+			);
+			name = C.MotionMonitorTests;
+			productName = C.MotionMonitorTests;
+			productReference = A195B5AE1AAB3EEA004133D1 /* C.MotionMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A195B5911AAB3EEA004133D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = JYLabs;
+				TargetAttributes = {
+					A195B5981AAB3EEA004133D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = SK8W4L32D6;
+					};
+					A195B5AD1AAB3EEA004133D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A195B5981AAB3EEA004133D1;
+					};
+				};
+			};
+			buildConfigurationList = A195B5941AAB3EEA004133D1 /* Build configuration list for PBXProject "C.MotionMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A195B5901AAB3EEA004133D1;
+			productRefGroup = A195B59A1AAB3EEA004133D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A195B5981AAB3EEA004133D1 /* C.MotionMonitor */,
+				A195B5AD1AAB3EEA004133D1 /* C.MotionMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A195B5971AAB3EEA004133D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A195B5A41AAB3EEA004133D1 /* Main.storyboard in Resources */,
+				A195B5A91AAB3EEA004133D1 /* LaunchScreen.xib in Resources */,
+				A195B5A61AAB3EEA004133D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A195B5AC1AAB3EEA004133D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A195B5951AAB3EEA004133D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A195B5A11AAB3EEA004133D1 /* ViewController.swift in Sources */,
+				A195B59F1AAB3EEA004133D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A195B5AA1AAB3EEA004133D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A195B5B51AAB3EEA004133D1 /* C_MotionMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A195B5B01AAB3EEA004133D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A195B5981AAB3EEA004133D1 /* C.MotionMonitor */;
+			targetProxy = A195B5AF1AAB3EEA004133D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A195B5A21AAB3EEA004133D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A195B5A31AAB3EEA004133D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A195B5A71AAB3EEA004133D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A195B5A81AAB3EEA004133D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A195B5B61AAB3EEA004133D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A195B5B71AAB3EEA004133D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A195B5B91AAB3EEA004133D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = C.MotionMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A195B5BA1AAB3EEA004133D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = C.MotionMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A195B5BC1AAB3EEA004133D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = C.MotionMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C.MotionMonitor.app/C.MotionMonitor";
+			};
+			name = Debug;
+		};
+		A195B5BD1AAB3EEA004133D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = C.MotionMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/C.MotionMonitor.app/C.MotionMonitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A195B5941AAB3EEA004133D1 /* Build configuration list for PBXProject "C.MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A195B5B61AAB3EEA004133D1 /* Debug */,
+				A195B5B71AAB3EEA004133D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A195B5B81AAB3EEA004133D1 /* Build configuration list for PBXNativeTarget "C.MotionMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A195B5B91AAB3EEA004133D1 /* Debug */,
+				A195B5BA1AAB3EEA004133D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A195B5BB1AAB3EEA004133D1 /* Build configuration list for PBXNativeTarget "C.MotionMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A195B5BC1AAB3EEA004133D1 /* Debug */,
+				A195B5BD1AAB3EEA004133D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A195B5911AAB3EEA004133D1 /* Project object */;
+}
