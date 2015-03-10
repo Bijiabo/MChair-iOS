@@ -39,7 +39,7 @@ class ViewController: UIViewController , WKNavigationDelegate {
     webView.navigationDelegate = self
     view.addSubview(webView)
     view.sendSubviewToBack(webView)
-    let url : NSURL! = NSURL(string: "http://localhost")
+    let url : NSURL! = NSURL(string: "http://192.168.1.13")
     let req : NSURLRequest = NSURLRequest(URL: url)
     webView.loadRequest(req)
     
