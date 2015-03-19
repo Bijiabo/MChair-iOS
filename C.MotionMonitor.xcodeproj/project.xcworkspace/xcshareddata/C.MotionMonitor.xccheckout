@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20E28F15-5397-4B79-BD0A-0C2DB1BFB231</string>
+	<key>IDESourceControlProjectName</key>
+	<string>C.MotionMonitor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BAE5EC9C160E509E41219515302CF6DF4444A7ED</key>
+		<string>https://github.com/Bijiabo/MChair-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C.MotionMonitor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BAE5EC9C160E509E41219515302CF6DF4444A7ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Bijiabo/MChair-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BAE5EC9C160E509E41219515302CF6DF4444A7ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BAE5EC9C160E509E41219515302CF6DF4444A7ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>C.MotionMonitor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
